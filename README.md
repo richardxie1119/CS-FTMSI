@@ -58,7 +58,31 @@ python.exe process_data.py --out_dir $out_dir --path_file $path_files  --r $r --
 4. In command prompt, run ```bash run.sh```
 
 ## Analyze the data
-Some post analysis can be found in the notebook (https://github.com/richardxie1119/CS-FTMSI/blob/master/demo/demo_40perc.ipynb)
+Some post analysis can be found in the [[notebook]](https://github.com/richardxie1119/CS-FTMSI/blob/master/demo/demo_40perc.ipynb)
+
+Visualize single-pixel reconstructed spectra:
+```
+idx = 62310
+fid_recon = spatial_coef[idx].dot(V_hat)
+mz_recon,sp_recon = fid2spec(fid_recon,params_basis['m'],mz_range=(700,900))
+
+mz_filter = (mz_recon>865)&(mz_recon<875)
+plt.figure(figsize=(10,5))
+plt.plot(mz_recon[mz_filter], sp_recon[mz_filter],c='k')
+plt.xlabel('m/z')
+plt.ylabel('intensity')
+```
+Visualize reconstructed ion images:
+```
+mz_idx = [341,344]
+fig,axes = plt.subplots(1,2,figsize=(8,4))
+ax = axes.ravel()
+for i,idx in enumerate(mz_idx):
+    ion_img = IonImg(peak_data_recon['intens_mtx'][:,idx]/peak_data_recon['intens_mtx'].sum(1),tissue_coords,True,False)
+    ax[i].imshow(ion_img,'hot')
+    ax[i].set_title('Ion image for m/z {}'.format(np.round(peak_data_recon['mz'][idx],5)))
+plt.show()
+```
 
 
 

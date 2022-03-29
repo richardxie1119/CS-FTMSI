@@ -13,9 +13,11 @@ The repository contains:
 - Post analysis and processing pipeline to obtain hyperspectral data from reconstructed transients.
 
 ## How to run the demo
-Download the repo, and the demo data through this link: 
+Download the repo. Be sure to manually download the `sparse_subspace.exe` from the repo (it won't automatically download due to the file size) and place it under the same project folder.
 
-Be sure to manually download the `sparse_subspace.exe` from the repo (it won't automatically download due to the file size) and place it under the same project folder.
+To download the demo data, follow the link: 
+
+You should find `20210419_Coronal_HR.d`, `20210419_Coronal_sparse_40perc.d`, and `basis_transients.npy` within the zip file.
 
 
 

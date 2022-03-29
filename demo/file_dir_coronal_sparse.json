@@ -1,7 +1,7 @@
 {"parameter_basis_path": "../20210419_Coronal_HR.d/070220_pos150_1200_1M_DC.m/apexAcquisition.method",
     "parameter_data_path": "../20210419_Coronal_sparse_40perc.d/070220_pos150_1200_64K_DC.m/apexAcquisition.method",
     "data_path": "../20210419_Coronal_sparse_40perc.d/ser",
-    "basis_data_path": "E:/20210419_Coronal_HR/20210419_Coronal_HR.d/ser",
+    "basis_data_path": "../20210419_Coronal_HR/20210419_Coronal_HR.d/ser",
     "data_imaging_info": "../20210419_Coronal_sparse_40perc.d/ImagingInfo.xml",
     "basis_imaging_info": "../20210419_Coronal_HR.d/ImagingInfo.xml"
 }

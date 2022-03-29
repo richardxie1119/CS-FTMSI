@@ -35,11 +35,15 @@ In the bash script `run.sh`, the following arguments need to be defined.
 `mz_range` :m/z range for the data processing.\
 
 To run the whole pipeline:
+Create data sets:
 ```
 python.exe create_data.py --out_dir $out_dir --path_file $path_files --tissue_autoxcute_path $tissue_autoxcute_path --sample_autoxcute_path $sample_autoxcute_path --ROI $ROI --get_data_basis $get_data_basis --basis_ROI $basis_ROI
 ```
+Run binary for CS and subspace reconstruction on the prepared data:
 ```
 sparse_subspace.exe --out_dir $out_dir --path_file $path_files --estimate_basis $estimate_basis --n_basis_data $n_basis_data --basis_path $basis_path --r $r --lamb $lamb --mu $mu --max_iter $max_iter\
+```
+Process the reconstructed data:
 ```
 python.exe process_data.py --out_dir $out_dir --path_file $path_files  --r $r --mz_range $mz_range\
 ```

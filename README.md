@@ -12,6 +12,9 @@ The repository contains:
 - A Pyhon executable binary for the joint CS and subspace reconstruction.
 - Post analysis and processing pipeline to obtain hyperspectral data from reconstructed transients.
 
+<p align="center">
+  <img src="workflow.png" /width="700"> 
+</p>
 
 ## Run the program
 Install all dependencies (numpy >=1.19.5, scipy>=1.16.3, h5py). The Python binary executable currently only supports running on Windows system.

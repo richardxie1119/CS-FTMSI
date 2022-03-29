@@ -13,7 +13,7 @@ The repository contains:
 - Post analysis and processing pipeline to obtain hyperspectral data from reconstructed transients.
 
 <p align="center">
-  <img src="https://github.com/richardxie1119/CS-FTMSI/blob/master/workflow.png" /width="700"> 
+  <img src="https://github.com/richardxie1119/CS-FTMSI/blob/master/workflow.png" /width="600"> 
 </p>
 
 ## Run the program

@@ -12,6 +12,13 @@ The repository contains:
 - A python executable binary for the joint CS and subspace reconstruction.
 - Post analysis and processing pipeline to obtain hyperspectral data from reconstructed transients.
 
+
+## Run the program
+```
+yes
+```
+
+
 ## How to run the demo
 1. Download the repo. Be sure to manually download the `sparse_subspace.exe` from the repo (it won't automatically download due to the file size) and place it under the same project folder.
 

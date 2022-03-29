@@ -14,7 +14,7 @@ The repository contains:
 
 
 ## Run the program
-Install all dependencies (numpy >=1.19.5, scipy>=1.16.3, h5py). The Python binary currently supports 
+Install all dependencies (numpy >=1.19.5, scipy>=1.16.3, h5py). The Python binary currently only supports running on Windows system.
 ```
 yes
 ```

@@ -34,7 +34,7 @@ Within the bash script `run.sh`, the following arguments need to be defined.
 `r` :number of basis transients used for reconstruction.\
 `mz_range` :m/z range for the data processing.\
 
-In the bash script, three commands are run for the whole pipeline:
+In the bash script, three commands are run for the whole pipeline.\
 Create data sets:
 ```
 python.exe create_data.py --out_dir $out_dir --path_file $path_files --tissue_autoxcute_path $tissue_autoxcute_path --sample_autoxcute_path $sample_autoxcute_path --ROI $ROI --get_data_basis $get_data_basis --basis_ROI $basis_ROI
@@ -47,8 +47,6 @@ Process the reconstructed data:
 ```
 python.exe process_data.py --out_dir $out_dir --path_file $path_files  --r $r --mz_range $mz_range\
 ```
-
-
 
 ## How to run the demo
 1. Download the repo. Be sure to manually download the `sparse_subspace.exe` from the repo (it won't automatically download due to the file size) and place it under the same project folder.

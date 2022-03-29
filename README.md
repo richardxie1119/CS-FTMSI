@@ -15,7 +15,7 @@ The repository contains:
 ## How to run the demo
 Download the repo, and the demo data through this link: 
 
-Be sure to manually download the sparse_subspace.exe from the repo (it won't automatically download due to the file size) and place it under the same project folder.
+Be sure to manually download the 'sparse_subspace.exe' from the repo (it won't automatically download due to the file size) and place it under the same project folder.
 
 
 

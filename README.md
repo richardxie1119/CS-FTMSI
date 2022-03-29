@@ -15,7 +15,7 @@ The repository contains:
 
 ## Run the program
 Install all dependencies (numpy >=1.19.5, scipy>=1.16.3, h5py). The Python binary executable currently only supports running on Windows system.
-In the bash script `run.sh`, the following arguments need to be defined.
+Within the bash script `run.sh`, the following arguments need to be defined.
 
 `export PATH=PATH_TO_PYTHON:%PATH:PATH_TO_PROJECT`: define the paths to Python and project folder\
 `out_dir` :where the output files will be stored in the output folder\
@@ -34,7 +34,7 @@ In the bash script `run.sh`, the following arguments need to be defined.
 `r` :number of basis transients used for reconstruction.\
 `mz_range` :m/z range for the data processing.\
 
-To run the whole pipeline:
+In the bash script, three commands are run for the whole pipeline:
 Create data sets:
 ```
 python.exe create_data.py --out_dir $out_dir --path_file $path_files --tissue_autoxcute_path $tissue_autoxcute_path --sample_autoxcute_path $sample_autoxcute_path --ROI $ROI --get_data_basis $get_data_basis --basis_ROI $basis_ROI

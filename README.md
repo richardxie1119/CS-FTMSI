@@ -17,8 +17,8 @@ The repository contains:
 Install all dependencies (numpy >=1.19.5, scipy>=1.16.3, h5py). The Python binary executable currently only supports running on Windows system.
 In the bash script `run.sh`, the following arguments need to be defined.
 
-export PATH=/mnt/c/Users/Richard/Anaconda3/:%PATH:/mnt/d/Work/projects/MSI/subspaceMSI_py/CS-FTMSI
-`out_dir` **where the output files will be stored in the output folder**
+export PATH=/mnt/c/Users/Richard/Anaconda3/:%PATH:/mnt/d/Work/projects/MSI/subspaceMSI_py/CS-FTMSI\\
+`out_dir` **where the output files will be stored in the output folder**\\
 `path_files` **file that indicates the required data paths**
 `ROI` **ROI header for the data imaging file.**
 `basis_ROI` **ROI header for the basis imaging file.**

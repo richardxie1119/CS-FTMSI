@@ -17,7 +17,7 @@ The repository contains:
 
 2. To download the demo data, follow the link: 
 
-3. You should find `20210419_Coronal_HR.d`, `20210419_Coronal_sparse_40perc.d`, and `basis_transients.npy` within the zip file.
+3. You should find `20210419_Coronal_HR.d`, `20210419_Coronal_sparse_40perc.d`, and `basis_transients.npy` within the zip file. Place the `.d` folders under the main folder, and `basis_transients.npy` under the `output/coronal_40perc` folder.
 
 
 

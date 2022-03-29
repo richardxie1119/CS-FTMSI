@@ -1,7 +1,7 @@
 # Joint Compressed Sensing and Subspace Modeling of the FT Mass Spectrometry Imaging Data
 
 <p align="center">
-  <img src="https://github.com/richardxie1119/CS-FTMSI/blob/master/TOC_git.png" /width="700"> 
+  <img src="https://github.com/richardxie1119/CS-FTMSI/blob/master/TOC_git.png" /width="600"> 
 </p>
 
 ## What's included

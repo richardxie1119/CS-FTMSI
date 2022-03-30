@@ -10,7 +10,7 @@ This is the code repository containing the processing and algorithmic implementa
 
 
 The repository contains:
-- Preprocessing dependencies to prepare data sets from Bruker FT-ICR acquisitions and flexImaging generated files.
+- Preprocessing dependencies to prepare data sets from Bruker FT-ICR and flexImaging generated files.
 - A Pyhon executable binary for the joint CS and subspace reconstruction.
 - Post analysis and processing pipeline to obtain hyperspectral data from reconstructed transients.
 

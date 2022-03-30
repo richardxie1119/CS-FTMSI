@@ -60,7 +60,7 @@ python.exe process_data.py --out_dir $out_dir --path_file $path_files  --r $r --
 4. In command prompt, run ```bash run.sh```
 
 ## Analyze the data
-Some post analysis can be found in the [[notebook]](https://github.com/richardxie1119/CS-FTMSI/blob/master/demo/demo_40perc.ipynb)
+Some post analysis can be found in the [[notebook]](https://github.com/richardxie1119/CS-FTMSI/blob/master/data_analysis/demo_40perc.ipynb)
 
 Visualize single-pixel reconstructed spectra:
 ```
